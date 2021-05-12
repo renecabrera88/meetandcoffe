@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png"/>
+    <meta name="author" content="Rene Cabrera Brito">
+    <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/00e0ffc76a.js" crossorigin="anonymous"></script>
+    <title>Meet & Cofee</title>
+
+</head>
+
+<body class="body">
+    <!-- <img src="./assets/img/coffee-cup.svg" alt="coffee cup" width="40" height="40"> -->
+
+    <nav class="menu">
+        <ul>
+            <!-- que seria lo correcto, dejarla en li la imagen o asi nomas dentro de ul? -->
+            <img src="./assets/img/coffee-cup.svg" alt="coffee cup" class="icono inverter">
+            <li><a href="#inicio" class="color">Ícono</a></li>
+            <li><a href="#ubicacion" class="color">Ubicación</a></li>
+            <li><a href="#proxima-charla" class="color">Próxima Charla</a></li>
+            <li><a href="#eventos" class="color">Eventos anteriores</a></li>
+            <li><a href="#Contacto" class="color">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- el header es de la pagina, no de una section -->
+    <header class="cabecera">
+            <img src="./assets/img/bg-hero.png" alt="Hero image" class="bighero">       
+        <hgroup>
+            <!-- la idea que haya solo una etiqueta h1, los demas h2, h3 etc -->
+            <h1 class="letra">Descubre lo último en tecnología<br> bebiendo café</h1>
+            <h2 class="letra2">Charlas, eventos y simposios sobre tecnología</h2>
+        </hgroup>
+    </header>
+
+<!-- section usa el maqueta original, las partes dentro de section es article -->
+    <section class="juntamos">
+
+        <img src="./assets/img/we-work.jpg" alt="Hero image" class="hero_image">
+        <h2 class="juntamos_letra">¿Dónde nos juntamos?</h2>
+        <p class="juntamos_letra2">Todos los martes y viernes, de 19:00 a 22:00 en We work,<br> Calle baker 133, Providencia, Santiago</p>
+
+    </section>
+
+    <section class= "proximo">
+        
+       <div class="centrado">     
+            <img src="assets/img/speaker.jpg" alt="Machine image" class="img_pro">
+                
+
+            <div class="texto">
+                <hgroup>
+                    <h2>Pŕoxima charla</h2>
+                    <!-- por que h2 es mas grande que h1?. a pesar de la jerarquia deje primero h2 por ser mas grande -->
+                   <div>
+                        <h3>Big Data para Noobs</h3>
+                        <h4>Rafaela Valdéz</h4>
+                        <h5>Data Scientist, PhD Theorical Physics, Carneige Mellon University</h5>
+                    </div>
+                </hgroup>
+
+                <!-- <p><small>Data Scientist, PhD Theorical Physics, Carneige Mellon University</small></p> -->
+                <p>En esta charla revisaremos las técnicas y tecnologías que<br> hacen que sea económico hacer frente a los datos a una<br> escala extrema</p>
+            </div>
+
+        </div>
+                
+    </section>
+
+    <section class="eventos">
+        
+        
+            <h2 class="e_ant">Eventos anteriores</h2>        
+        
+            <!-- article sudivide etiqueta section -->
+        <article class="imagen">
+            <img src="./assets/img/simposio-vegan.jpg" alt="simposio vegan">
+            <h3> <a href="evento01.html" target="_blank" class="letra_b">Simposio VeganDB</a> </h3>
+        </article>
+
+        <article class="imagen">
+            <img src="./assets/img/machine-learning.jpg" alt="machine learning">
+            <h3 class="letra_b2">Machine learning 101</h3>
+        </article>
+
+        <article class="imagen">
+            <img src="./assets/img/scrum-sin-scream.jpg" alt="scrum sin scream">
+            <h3 class="letra_b3">Scrum sin scream</h3>
+        </article>
+
+    </section>
+
+
+    <footer class="footer">
+        <div>
+
+            <!-- no encontre los iconos asi que deje solo los link como en las imagenes de prototipo -->
+            <a href="www.github.com"><i class="fab fa-github-square fa-4x ico1"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter-square fa-4x ico2"></i></a>
+            <a href="www.linkding.com"><i class="fab fa-linkedin fa-4x ico3"></i></a>
+
+            <!-- <a href="www.github.com">Click para github</a>
+            <a href="www.twitter.com">Click para twitter</a>
+            <a href="www.linkding.com">Click para linkding</a> -->
+        </div>
+
+        <p class="blanco">Meet & coffe 2018. Todos los derechos reservados</p>
+
+        
+
+    </footer>
+
+
+
+</body>
+</html>

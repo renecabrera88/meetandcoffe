@@ -1,0 +1,410 @@
+.menu{
+    
+    
+    padding: 5px 15px; 
+    /* Alineo el texto del menu hacia la izquierda, quedando los ul con todos sus li hacia la izquierda */
+    text-align: left;
+    font: normal normal normal 25px/34px 'Open Sans';
+    letter-spacing: 0.25px;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 99px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+        
+}
+
+.menu2{
+    top: 0px;
+    left: -1px;
+    width: 1920px;
+    height: 99px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.color{
+    color: #FFFFFF;
+    top: 32px;
+    left: 226px;
+    width: 116px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.menu li{
+
+    /* saca los puntos o numero detante de los valores de lalista */
+    list-style: none;
+    padding: 5px;
+    font: bold 20px vendana white;
+    /* de maneranativa el html me coloca los li alineados hacia abajo o en bloque, por lo que 
+    asi le digo que se alineen hacia el lado en bloque */
+    display: inline-block;
+    vertical-align: middle;
+        
+}
+
+.bighero{
+   width: 1920px;
+   height: 422px;
+   background: transparent;
+}
+
+.cabecera{
+    width: 1920px;
+    height: 422px;
+    /* background: transparent url('../img/bg-hero.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    /* solo funciono colocando dos puntos antes de la carpeta img fuente: https://stackoverflow.com/questions/20064596/adding-background-image-to-div-using-css */
+    /* background-image: url('../img/bg-hero.png') ;
+    border: 1px solid #2624b4;
+    height:  350px;
+    background-repeat: no-repeat;
+    */
+     
+}
+
+.cabecera hgroup{
+
+    text-align: right;
+    margin: 20px;
+    margin-top: 150px;
+    
+}
+
+.letra{
+    top: 151px;
+    left: 491px;
+    width: 1229px;
+    height: 191px;
+    text-align: right;
+    font: normal normal 800 60px/82px 'Open Sans';
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+    position: absolute;
+}
+
+.letra2{
+    top: 315px;
+    left: 658px;
+    width: 1062px;
+    height: 55px;
+    text-align: right;
+    font: normal normal normal 40px/55px Open Sans;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+    position: absolute;
+}
+
+.juntamos{
+    top: 521px;
+    left: 0px;
+    width: 1920px;
+    height: 830px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+       
+}
+
+.hero_image{
+    top: 674px;
+    left: 701px;
+    width: 519px;
+    height: 344px;
+    background: #B36B0103 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+
+.juntamos img{
+    height: 344px;
+    width: 519;
+    margin-top: 80px;
+}
+
+.proximo{
+    top: 1351px;
+    left: 0px;
+    width: 1920px;
+    height: 501px;
+    background: #A4452C 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img_pro{
+    top: 1455px;
+    left: 513px;
+    width: 312px;
+    height: 294px;
+    background: #B36B0107 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+   
+
+.proximo img{
+
+    height: 293.64px;
+    width: 311.61px;
+    padding-top: 104px;
+    padding-left: 130px;
+    /*padding-bottom: 103.34px; */
+
+}
+
+.cuadro{
+    top: 1504px;
+    left: 864px;
+    width: 864px;
+    height: 258px;
+    opacity: 1;
+}
+
+
+
+.eventos{
+    top: 1852px;
+    left: 0px;
+    width: 1920px;
+    height: 770px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+}
+
+.e_ant{
+    top: 1995px;
+    left: 630px;
+    width: 660px;
+    height: 59px;
+    text-align: center;
+    font: normal normal bold 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+    padding-left: 630px;
+
+}
+
+.letra_b{
+    top: 2419px;
+    left: 211px;
+    width: 397px;
+    height: 41px;
+    text-align: center;
+    font: normal normal bold 35px/47px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+}
+
+.letra_b2{
+    top: 2421px;
+    left: 762px;
+    width: 397px;
+    height: 39px;
+    text-align: center;
+    font: normal normal bold 35px/47px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+}
+
+.letra_b3{
+    top: 2419px;
+    left: 1323px;
+    width: 397px;
+    height: 59px;
+    text-align: center;
+    font: normal normal bold 35px/47px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+}
+
+/* los block, los alinea una al lado de otro, en este caso la img y .texto */
+.texto{
+    display: inline-block;
+    /* el padding logro que pudera juntar los elementos mas en el centro */
+    /*padding-top: 104px;
+    padding-right: 500px; */
+    /* flot permitio que pueda mover por la seccion libremente afirmando la posicion con los pading */
+    /* float: right; */
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.imagen{
+    display: inline-block;
+    padding: auto;
+    align-items: center;
+    top: 2129px;
+    left: 193px;
+    width: 415px;
+    height: 244px;
+    background: #B36B0124 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.centrado{
+    /* width: 75%;
+    margin: 0 auto; */
+    text-align: center;
+}
+
+.footer{
+    font-size: 24px;
+    text-align: center;
+    top: 2622px;
+    left: 0px;
+    width: 1920px;
+    height: 284px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.blanco{
+    color:#FFFFFF;
+}
+
+.icono{
+    width:40px;
+    height: 40px;
+    background: transparent url('img/tea-cup.png') 0% 0% no-repeat padding-box; 
+}
+
+.ico1{
+    top: 2725px;
+    left: 829px;
+    width: 68px;
+    height: 68px;
+    background: transparent url('img/github-sign.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    padding-top: 101px;
+}
+
+.ico2{
+    top: 2723px;
+    left: 924px;
+    width: 70px;
+    height: 70px;
+    background: transparent url('img/twitter-logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 101px;
+}
+
+.ico3{
+    top: 2723px;
+    left: 1021px;
+    width: 70px;
+    height: 70px;
+    background: transparent url('img/linkedin-logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    padding-top: 101px;
+}
+
+.body2{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2823px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+}
+
+.simp_veg{
+    top: 196px;
+    left: 418px;
+    width: 1085px;
+    height: 59px;
+    text-align: left;
+    font: normal normal bold 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+    padding-left: 418px;
+}
+
+
+.img_veg{
+    top: 328px;
+    left: 418px;
+    width: 1085px;
+    height: 565px;
+    background: #B36B0124 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    
+}
+
+.block1{
+    top: 966px;
+    left: 418px;
+    width: 1085px;
+    height: 440px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    opacity: 1;
+    padding-left: 418px;
+}
+
+.gsamsa{
+    top: 1421px;
+    left: 418px;
+    width: 684px;
+    height: 43px;
+    text-align: left;
+    font: normal normal bold 40px/55px 'Open Sans';
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+    padding-left: 418px;
+}
+
+.footer2{
+    top: 3500px;
+    left: 0px;
+    width: 1920px;
+    height: 284px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 24px;
+    text-align: center;
+    top: 2622px;
+}
+
+.inverter {
+    
+   filter: invert(100%);
+}
+
